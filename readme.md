@@ -13,4 +13,8 @@
 * se connecter en root : `mysql -u root`
 * créer un utilisateur : `grant all privileges on podcastscience_fm.* to 'podcastsciencefm'@'localhost' identified by 'lemotdepasse';`
 * créer la table : `CREATE DATABASE podcastscience_fm;`
-* ramener la sauvegarde dans la table : `mysql -u podcastsciencefm -p podcastscience_fm < /Users/BCoulange/Downloads/1389396168_-_podcastscience_fm.sql`
+* ramener la sauvegarde dans la table : `mysql -u podcastsciencefm -p podcastscience_fm < /Users/BCoulange/Downloads/1389396168_-_podcastscience_fm.sql
+
+
+## Lancer mysql
+* `mysql.server start`
